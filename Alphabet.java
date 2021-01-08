@@ -12,7 +12,8 @@ public class Alphabet
     c.println("Original alphabet array");
     for(int x = 0; x < 10; x++)
     {
-      names [x] = c.readLine();
+      alphabet[x] = c.readLine();
+
     }
     c.println("Here is the alphabet after sorting in ascending order:");
     Arrays.sort(alphabet); //sort the array in ascending (alphabetical) order
@@ -31,3 +32,4 @@ public class Alphabet
     }
     }
   }
+
